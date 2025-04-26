@@ -20,15 +20,13 @@ Finally the data was normalized using a min-max scaler for easier calculations, 
 
 **Results**
 
-|  | R-Squared
-*Train* | R-Squared
-*Test* | MSE
-*Train* | MSE *Test* |
-| :---- | :---- | :---- | :---- | :---- |
-| **Linear Regression** | 0.7027 | 0.7031 | 0.0091 | 0.0091 |
-| **L1 Regularization** | 0.6951 | 0.6955 | 0.0092 | 0.0092 |
-| **L2 Regularization** | 0.7008 | 0.7011 | 0.0091 | 0.0092 |
-| **Elastic-Net** | 0.6986 | 0.6989 | 0.0091 | 0.0091 |
+| Model                | R-Squared (Train) | R-Squared (Test) | MSE (Train) | MSE (Test) |
+| :------------------- | :---------------- | :--------------- | :---------- | :--------- |
+| **Linear Regression** | 0.7027             | 0.7031            | 0.0091      | 0.0091     |
+| **L1 Regularization** | 0.6951             | 0.6955            | 0.0092      | 0.0092     |
+| **L2 Regularization** | 0.7008             | 0.7011            | 0.0091      | 0.0092     |
+| **Elastic-Net**       | 0.6986             | 0.6989            | 0.0091      | 0.0091     |
+
 
 *Table 1: Benchmarks for each model*
 
