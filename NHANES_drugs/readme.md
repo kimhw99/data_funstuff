@@ -13,13 +13,13 @@ Two-sample T-tests were conducted to evaluate the differences in drug use betwee
 **T-Test: Mental Health on Drugs**  
 A 2-Sample T-Test was used to observe the difference of drug use between people who had poor mental health and those who did not. The CDC defines frequent mental distress as 14 or more days in the past 30 days when someone has reported poor mental health (*Mental Health | Chronic Disease Indicators*, 2024), so this was the cutoff point used to determine poor mental health in the sample. The results of the T-Tests are shown below in Table 1:
 
-|  | p-value | t-value | Degrees of Freedom | Mean
-Drug Use of Normal Mental Health | Mean Drug use of Poor Mental Health |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| **Alcohol** | 0.2413 | \-1.1724 | 1216 | 85.79232 | 76.33168 |
-| **Smoking** | 0.1168 | 1.5697 | 1216 | 0.5639764 | 0.6237624 |
-| **Marijuana** | 0.04383 | 2.0179 | 1216 | 0.7726378 | 0.8366337 |
-| **Hard Drugs** | 0.01964 | 2.3363 | 1216 | 0.3444882 | 0.4306931 |
+| Drug Type          | p-value | t-value | Degrees of Freedom | Mean (Normal Mental Health) | Mean (Poor Mental Health) |
+| :----------------- | :------ | :------ | :----------------- | :-------------------------- | :------------------------- |
+| **Alcohol**         | 0.2413  | -1.1724 | 1216               | 85.79232                    | 76.33168                   |
+| **Smoking**         | 0.1168  | 1.5697  | 1216               | 0.5639764                   | 0.6237624                  |
+| **Marijuana**       | 0.04383 | 2.0179  | 1216               | 0.7726378                   | 0.8366337                  |
+| **Hard Drugs**      | 0.01964 | 2.3363  | 1216               | 0.3444882                   | 0.4306931                  |
+
 
 *Table 1: Differences in Drug Use between Poor Mental Health and Normal Mental Health*
 
@@ -28,13 +28,13 @@ Alcohol is measured in the number of days that alcohol was consumed, while Smoki
 **T-Test: Drugs on Mental Health**  
 A 2-Sample T-Test was also conducted between groups that used drugs and didn’t use drugs to see the difference in means between their mental health. Smoking, Marijuana and Hard Drugs were both binary variables but Alcohol was a continuous one, and so the data was stratified before the T-Test was conducted. The results are shown in Table 2\.
 
-|  | p-value | t-value | Degrees of Freedom | Mean
-Mental Health of Non-Users | Mean Mental Health of Users |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| **Alcohol** | 0.08963 | \-1.6987 | 1216 | 5.208453   | 6.418079 |
-| **Smoking** | 0.005294 | \-2.7936 | 1216 | 4.572254 | 5.987124 |
-| **Marijuana** | 0.003701 | \-2.9082 | 1216 | 4.000000 | 5.767296 |
-| **Hard Drugs** | 0.003809 | \-2.8991 | 1216 | 4.841229 | 6.354691 |
+| Drug Type          | p-value | t-value | Degrees of Freedom | Mean (Non-Users) | Mean (Users) |
+| :----------------- | :------ | :------ | :----------------- | :--------------- | :----------- |
+| **Alcohol**         | 0.08963 | -1.6987 | 1216               | 5.208453          | 6.418079     |
+| **Smoking**         | 0.005294 | -2.7936 | 1216              | 4.572254          | 5.987124     |
+| **Marijuana**       | 0.003701 | -2.9082 | 1216              | 4.000000          | 5.767296     |
+| **Hard Drugs**      | 0.003809 | -2.8991 | 1216              | 4.841229          | 6.354691     |
+
 
 *Table 2: 2-Sample T-Test: Differences in Mental Health of Drug users and non-users*
 
